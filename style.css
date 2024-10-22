@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #00c4cc;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.profile-title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: #00c4cc;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.about-me {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.about-me h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills {
+    padding: 40px 0;
+    background-color: #eaeaea;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    background-color: #00c4cc;
+    height: 100%;
+}
+
+.portfolio {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 40px 0;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+footer {
+    background-color: #00c4cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
